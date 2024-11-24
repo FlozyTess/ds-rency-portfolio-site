@@ -7,30 +7,31 @@
     <Link rel="stylesheet"href="./style.css">
 </head>
 <body>
-    <header>
-          <h1>RENCY'S PORTFOLIO</h1>
-          <script src="index.js"></script>
-             <nav>
-                 <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">About ME</a></li>
-                    <li><a href="">Skills</a></li>
-                    <li><a href ="">projects</a></li>
-                    <li><a href="">Contacts</a></li>
-                    <li><button type = "download"><a href="">Download Resume</a></button></li>
-                 </ul>
-             </nav>
+<!--header section-->
+    <header id="home">
+        <h1>RENCY'S PORTFOLIO</h1>
+        <nav>
+           <ul>
+                <li><a href="#about">About ME</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href ="#projects">projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><button type = "download"><a href="#">Download Resume</a></button></li>
+            </ul>
+        </nav>
+         <div class="home-tab">
+             <img src="Images/WS_logo.png" alt="profile logo"/>
+             <div class="intro">
+                 <h2>Florence Simba</h2>
+                  <p>A passionate data analyst and software developer based in Nairobi, Kenya.</p>
+             </div> 
+          </div>
     </header>
-    <main>
-    <!--home section-->
-    <section>
-     <div class="home-tab">
-       <div class="About">
-               <p></p>
-         </div>  
-           <img src="Images/WS_logo.png" alt="profile logo"/>
-     </div>
-    </section>
+    <!--About Me section-->
+     <section id= "about">
+        <h2>About Me</h2>
+        <p>I am a data analyst with expertise in front-end web development. I enjoy solving complex problems and delivering innovative solutions.</p>
+     </section>
     <section> 
          <div>
            <form></form>
@@ -40,4 +41,6 @@
    <footer class="footer">
          <p>&copy; DSRency 2024. All rights reserved.</p>
    </footer>
+    <script src="index.js"></script>
 </body>
+</html>

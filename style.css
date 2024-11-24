@@ -3,7 +3,8 @@
      color: white;
      font-family: Arial, sans-serif;
      padding: 0;
-     margin: 0;   
+     margin: 0; 
+     scroll-behavior: smooth;  
  }
  header{
       text-align: center;
@@ -34,7 +35,7 @@
  nav a:hover {
     color: blueviolet;
 }
-
+acv
  .home-tab { 
     display: grid;
     grid-template-columns: 1fr 2fr; 
