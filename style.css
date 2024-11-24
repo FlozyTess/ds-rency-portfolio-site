@@ -22,6 +22,10 @@
  }
  nav a:hoover{
        color:blueviolet;
+       background-color: white;
+ }
+ main {
+    padding: 20px;
  }
  .home-tab { 
     display: grid;
@@ -44,4 +48,6 @@
 footer {
     background-color: blueviolet;
     text-align: center;
+    padding: 15px;
+    width: 100%;
 }
