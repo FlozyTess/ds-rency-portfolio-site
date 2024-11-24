@@ -20,16 +20,20 @@
     display: flex;
     gap: 30px;
  }
- #home-tab { 
-    width: 400px;
-    margin: 0 auto;
+ .home-tab { 
+    display: grid;
+    grid-template-columns: 1fr 2fr; /* 1 part image, 2 parts text */
+    align-items: center; /* Vertically align items */
+    gap: 20px; /* Space between grid items */
+    padding: 20px;
  }
- #home-tab img {
+ .home-tab img {
     width: 800px;
     margin: 0 auto;
     text-align: left;
  }
- #home-tab p {
+ .home-tab p {
         color: #eeeeee;
         text-align: right;
+        position: left;
  }
