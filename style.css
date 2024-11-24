@@ -15,8 +15,13 @@
   border-radius: 5px; 
   font-family: Arial, sans-serif;
  }
+ nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+ }
  #home-tab { 
-    width: 800px;
+    width: 400px;
     margin: 0 auto;
  }
  #home-tab img {
