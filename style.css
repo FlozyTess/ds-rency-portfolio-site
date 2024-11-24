@@ -8,8 +8,14 @@
  }
  header{
       text-align: center;
-      padding: 40px;
+      padding: 20px;
       background-color: black;
+ }
+ #home h1 img {
+    width: 100px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: justify;
  }
  header h1 {
     color: whitesmoke;
@@ -35,29 +41,22 @@
  nav a:hover {
     color: blueviolet;
 }
-acv
+
  .home-tab { 
-    display: grid;
-    grid-template-columns: 1fr 2fr; 
+    display: flex; 
     align-items: center; 
     gap: 20px; 
     padding: 20px;
  }
- .home-tab img {
-    width: 600px;
-    margin: 0 auto;
-    text-align: left;
- }
- .home-tab p {
-        color: white;
-        text-align: right;
-        position: left;
-        font-size: x-large;
+  .home-tab p {
+        color: violet;
+        text-align: left;
+        font-size: 2.0em ;
  }
 footer {
     background-color: blueviolet;
     text-align: center;
-    padding: 20px;
+    padding: 5px;
     position: fixed;
     bottom: 0;
     width: 100%;
