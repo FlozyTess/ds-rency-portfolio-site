@@ -1,5 +1,5 @@
  body {
-     background-color: #000000;
+     background-color: #3a20ce;
      width: 100%;
      height: 100%;
      margin: 0;   
@@ -28,7 +28,7 @@
     padding: 20px;
  }
  .home-tab img {
-    width: 800px;
+    width: 400px;
     margin: 0 auto;
     text-align: left;
  }
@@ -36,4 +36,5 @@
         color: #eeeeee;
         text-align: right;
         position: left;
+        font-size: x-large;
  }
