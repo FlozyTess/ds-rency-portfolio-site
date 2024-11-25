@@ -13,13 +13,19 @@
  }
  #home h1 img {
     width: 100px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    text-align: justify;
+    height: auto;
+    display: block;
+    border-radius: 40%;
+    margin: 0;
  }
  header h1 {
+    display: flex; 
     color: whitesmoke;
     font-size: 2.5em;
+    align-items: center; 
+    justify-content: center; 
+    text-align: center;
+    gap: 10px;   
     margin-bottom: 20px;
  }
  nav { 
